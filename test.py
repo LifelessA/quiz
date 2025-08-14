@@ -11,7 +11,7 @@ os.makedirs("uploaded_tests", exist_ok=True)
 
 # Set the page configuration for the Streamlit app. This should be the first Streamlit command.
 st.set_page_config(
-    page_title="Cosmic Quest Prep",
+    page_title="AirPort Quest Prep",
     page_icon="🚀",
     layout="centered",
     initial_sidebar_state="auto"
@@ -131,7 +131,7 @@ def map_answer_to_option(row, answer):
 # --- UI & STYLING ---
 
 def load_css():
-    """Injects the custom CSS for the 'Cosmic Quest' theme."""
+    """Injects the custom CSS for the 'AirPort Quest' theme."""
     st.markdown("""
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@400;600&display=swap');
@@ -294,8 +294,8 @@ def load_css():
 
 def home_screen():
     """Displays the main home screen with available missions."""
-    st.title("🚀 Cosmic Quest Prep")
-    st.markdown("Welcome, Explorer! Choose your mission below to start your journey through the stars.")
+    st.title("🚀 AirPort Quest Prep")
+    st.markdown("Welcome, Explorer! Choose your mission below to start your journey through the Destiny.")
     
     with st.sidebar:
         st.header("🌌 Mission Control")
